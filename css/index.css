@@ -4,8 +4,8 @@ body, html {
   }
   
 .image {
-    background-image: url(../img/mini5.jpg);
-    height: 60%;
+    background-image: url(../img/new.jpg);
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,8 +22,8 @@ body, html {
   }
 .text2 {
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 10%;
+    left: 40%;
 }
 .text3 {
     position: absolute;
