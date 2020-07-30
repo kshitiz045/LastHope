@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+    <script type="text/javascript" src="../js/contact.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="../img/contact.jpeg" style="width: 50% ; height: 60%;"  class="pic">
+          </div>
+          <div class="column">
+           <form>
+            <table border="0">
+                <tr>
+                    <td>First Name : </td>       <!-- Input 1 -->
+                    <td><input name="firstname" type="text" id="firstname" placeholder="write your firstname" onblur="validateFirstName();"/ required></td>
+                    <td><span id="firstNamePrompt">&nbsp;</span></td>
+                </tr>
+                
+                <tr>
+                    <td>Last Name : </td>		<!--Input 2 --->
+                    <td><input name="lastname" type="text" id="lastname" placeholder="write your lastname" onblur="validateLastName();"/ required></td>
+                    <td><span id="lastNamePrompt">&nbsp;</span></td>
+                </tr>
+                
+                <tr>
+                    <td>Phone Number : </td> <!-- Input 3 -->
+                    <td><input name="phone" id="phone" type="text" onblur="validatePhoneNumber();"/ required></td>   
+                </tr>
+                
+                <tr>
+                    <td>Country : </td>  <!-- Input 4 -->
+                    <td><input name="country" id="country" type="text" required></td>                
+                </tr>
+                <tr>
+                    <td>Subject : </td>
+                    <td><textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea></td>
+                </tr>
+                
+                
+                <tr>
+                    <td><button type="button" onclick="alert('Review Submiitted')">Submit</button></td>
+                </tr>
+                
+                
+            </table>
+           </form>
+          </div>
+        </div>
+      </div>
+   
+    
+</body>
+</html>
