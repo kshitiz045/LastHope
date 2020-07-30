@@ -156,3 +156,22 @@ body, html {
   .menu_bar-right {
     float: right;
   }
+
+
+  .featured {
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    width: auto;
+    height: 80%;
+  }
+
+  .f1 {
+    border : 2px solid red;
+    width : 50%;
+    height:80%;
+    float: center;
+    position: absolute;
+    left: 28%;
+    margin-left: -50px;
+  }
+  
