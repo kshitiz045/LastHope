@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .main-page {
+  padding: 5px;
+  text-align: center;
+  background-color: lightgray;
+  color: white;
+}
+ 
+  h1 {
+      text-align: center;
+      font-size: 30px;
+        color :black
+  }
+ 
+  #note
+{
+    text-align: left;
+    color:black;
+}
+#marquee1
+{
+    
+    behavior: alternate;
+}

@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  p
+  {
+      font-style: bold;
+      font-size: large;
+      text-align: justify;
+  }
+  h2
+  {
+      text-align: left;
+      color:green;
+  }
+  #note
+  {
+      text-align: left;
+      color:black;
+  }
+  #marquee1
+  {
+      
+      behavior: alternate;
+  }
+  
+  
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
