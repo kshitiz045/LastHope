@@ -163,15 +163,20 @@ body, html {
     background-color: lightgray;
     width: auto;
     height: 80%;
+    padding-top: 5%;
   }
 
+  .img {
+    float :right;
+    margin: 5px;
+  }
   .f1 {
-    border : 2px solid red;
+    bborder : 2px solid red;
     width : 50%;
     height:80%;
     float: center;
     position: absolute;
     left: 28%;
     margin-left: -50px;
+
   }
-  
