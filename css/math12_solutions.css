@@ -12,6 +12,7 @@
   text-align: center;
   background-color: lightgray;
   color: white;
+  border: 5px solid black;
 }
  
   h1 {
@@ -29,4 +30,39 @@
 {
     
     behavior: alternate;
+}
+.big-box {
+    width: auto;
+    border: 5px solid rgb(23, 24, 23);
+    height:510%;
+    background-color: moccasin;
+}
+
+.box {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 30%;
+    top: 76%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+h5 {
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
+
+p {
+    text-align: left;
+    color: black;
+    font-size: 12px;
+}
+
+h6 {
+    text-align: left;
+    color: black;
+    font-size: 12px;
 }
