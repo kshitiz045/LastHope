@@ -33,11 +33,11 @@ html {
   opacity: 0.9;
 }
 
-.container {
+.contains {
   padding: 0 5px;
 }
 
-.container::after, .row::after {
+.contains::after, .row::after {
   content: "";
   clear: both;
   display: table;
@@ -64,7 +64,7 @@ html {
 }
 
 @media screen and (max-width: 650px) {
-  .column {
+  .full-page .first .second .cards .contains .button{
     width: 100%;
     display: block;
   }

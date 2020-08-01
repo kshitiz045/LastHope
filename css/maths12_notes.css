@@ -38,19 +38,7 @@ h1 {
   background-color: moccasin;
 }
 
-.box {
-  width: 500px;
-  height: 400p@media only screen and (max-width:620px) {
-    /* For mobile phones: */
-    .menu, .main, .right {
-      width:100%;
-    }olute;
-  left: 30%;
-  top: 76%;
-  transform: translate(-50%, -50%);
-  
-  
-}
+
 
 h5 {
   text-align: left;
@@ -81,6 +69,6 @@ h6 {
 }
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
-  .menu, .main, .right {
+  .main-page .maths .big-box {
     width:100%;
   }

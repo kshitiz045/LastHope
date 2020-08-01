@@ -38,17 +38,6 @@
     background-color: moccasin;
   }
   
-  .box {
-    width: 500px;
-    height: 400px;
-    position: absolute;
-    left: 30%;
-    top: 76%;
-    transform: translate(-50%, -50%);
-    
-    
-  }
-  
   h5 {
     text-align: left;
     color: black;
@@ -88,6 +77,6 @@
     }
     @media only screen and (max-width:620px) {
         /* For mobile phones: */
-        .menu, .main, .right {
+        .main-page .maths .big-box {
           width:100%;
         }

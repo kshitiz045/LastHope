@@ -34,11 +34,11 @@ html {
     opacity: 0.9;
   }
   
-  .container {
+  .containes {
     padding: 0 5px;
   }
   
-  .container::after, .row::after {
+  .containes::after, .row::after {
     content: "";
     clear: both;
     display: table;
@@ -65,7 +65,7 @@ html {
   }
   
   @media screen and (max-width: 650px) {
-    .column {
+    .full-page .second .first .contains .cards {
       width: 100%;
       display: block;
     }

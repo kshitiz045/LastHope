@@ -68,6 +68,6 @@ h6 {
 }
 @media only screen and (max-width:620px) {
     /* For mobile phones: */
-    .menu, .main, .right {
+    .main-page .big-box .box .maths{
       width:100%;
     }

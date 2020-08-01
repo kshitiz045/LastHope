@@ -65,7 +65,7 @@ body {
   }
   
   @media screen and (max-width: 650px) {
-    .column {
+    .column .about-section .card .container .title {
       width: 100%;
       display: block;
     }
