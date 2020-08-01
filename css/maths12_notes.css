@@ -1,36 +1,84 @@
 * {
-    box-sizing: border-box;
-  }
-
-  body, html {
-    height: 100%;
-    margin: 0;
-  }
-  
-  .main-page {
-  padding: 5px;
-  text-align: center;
-  background-color: lightgray;
-  color: white;
+  box-sizing: border-box;
 }
- 
-  h1 {
-      text-align: center;
-      font-size: 30px;
-        color :black
-  }
-  p {
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.main-page {
+padding: 5px;
+text-align: center;
+background-color: lightgray;
+color: white;
+border: 5px solid black;
+}
+
+h1 {
     text-align: center;
-    font-size: 20px;
-    color: black;
-  }
-  #note
+    font-size: 30px;
+      color :black
+}
+
+#note
 {
-    text-align: left;
-    color:black;
+  text-align: left;
+  color:black;
 }
 #marquee1
 {
-    
-    behavior: alternate;
+  
+  behavior: alternate;
 }
+.big-box {
+  width: auto;
+  border: 5px solid rgb(23, 24, 23);
+  height:510%;
+  background-color: moccasin;
+}
+
+.box {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  left: 30%;
+  top: 76%;
+  transform: translate(-50%, -50%);
+  
+  
+}
+
+h5 {
+  text-align: left;
+  color: black;
+  font-size: 20px;
+}
+
+p {
+  text-align: left;
+  color: black;
+  font-size: 12px;
+}
+
+h6 {
+  text-align: left;
+  color: black;
+  font-size: 12px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+  }
+  td {
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;    
+  }
+  th {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px; 
+       
+  }
