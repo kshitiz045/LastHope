@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: lightgray;
 }
 
 html {
@@ -24,7 +25,7 @@ html {
   
   .full-page {
       background-image: url(../img/chem12_back.jpg);
-    padding: 80px;
+    padding: 50px;
     text-align: center;
     background-color: #474e5d;
     color: white;
