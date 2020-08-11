@@ -217,7 +217,7 @@ body, html {
     margin: 5px;
   }
   .f1 {
-    bborder : 2px solid red;
+    border : 2px solid red;
     width : 50%;
     height:80%;
     float: center;
@@ -226,12 +226,11 @@ body, html {
     margin-left: -50px;
 
   }
-  @media only screen and (max-width:620px) {
-    /* For mobile phones: */
+/* @media only screen and (max-width:620px) {
+    
     .menu_bar, .menu_bar-right {
       width:100%;
     }
-
     @media screen and (max-width: 600px) {
       .menu_bar a:not(:first-child) {display: none;}
       .menu_bar a.icon {
@@ -239,7 +238,6 @@ body, html {
         display: block;
       }
     }
-    
     @media screen and (max-width: 600px) {
       .menu_bar.responsive {position: relative;}
       .menu_bar.responsive .icon {
@@ -253,3 +251,4 @@ body, html {
         text-align: left;
       }
     }
+*/
