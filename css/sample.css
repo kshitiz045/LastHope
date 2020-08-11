@@ -1,4 +1,5 @@
-* {
+
+*{
     box-sizing: border-box;
   }
   
@@ -10,9 +11,9 @@
   .main-page {
   padding: 5px;
   text-align: center;
-  background-color: lightgray;
+  background-color: slateblue;
   color: white;
-  border: 5px solid black;
+  border: 5px solid whitesmoke;
   }
   
   h1 {
@@ -33,9 +34,9 @@
   }
   .big-box {
     width: auto;
-    border: 5px solid rgb(23, 24, 23);
+    border: 5px solid whitesmoke;
     height:510%;
-    background-color: moccasin;
+    background-color: rgba(196, 196, 196,0.3);
   }
   
   h5 {
@@ -80,3 +81,5 @@
         .main-page .maths .big-box {
           width:100%;
         }
+
+    
