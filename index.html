@@ -1,110 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/index.css">
-    
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Akhiri Ummeed</title>
+    <title>Last Hope</title>
 </head>
 
 <body>
 
-    <!-- This division has half image background with slogan and website name in it -->
-    <div class="image">
-        
-         
-                <div class="text2">
-                    <br>
-                    <h1 style="font-size: 40px; color :black; font-size: 3vw;">Akhiri Ummeed</h1>
-                    <div class="text3">
-                        <br>
-                        <br>
-                        <h2 style="font-size: 25px; color: black; font-size: 2vw;">Study Material Avaliable Here.</h2>
-                    </div>   
-                </div>
-        
+    <div class="full-page">
+        <h1 style="color: black; font-size: 50px;"><strong>Last Hope</strong></h1>
+        <h3 style="color: black; font-size: 20px;"><strong>Study Material</strong></h3>
     </div>
-    <!-- division ends here -->
 
-    <!-- Division of top menu bar , starts here-->
+    <nav class="navbar navbar-expand-lg bg-primary text-white navbar-dark">
+        <a class="navbar-brand" class="nav-link active" href="#">
+            <h2>Home</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
 
-     
-    <div class="menu_bar" >
-        <a href="#home" class="active">Home</a> 
-        <a href="update.html">CBSE Syllabus</a>
-        <div class="drp-down1">
-            <button class="dropbtn1">Class 11
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="drpdown-content1">
-                <a href="./html/physics11.html">Physics</a>
-                <a href="./html/">Chemistry</a>
-                <a href="./html/maths11.html">Mathematics</a>
-            </div>
-        </div> 
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">CBSE Syllabus</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+                        Class 11
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./html/physics11.html">Physics</a>
+                        <a class="dropdown-item" href="./html/chemistry11.html">Chemistry</a>
+                        <a class="dropdown-item" href="./html/maths11.html">Maths</a>
+                    </div>
+                </li>
 
-        <div class="drp-down2">
-            <button class="dropbtn2">Class 12
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="drpdown-content2">
-                <a href="./html/physics12.html">Physics</a>
-                <a href="./html/chemistry12.html">Chemistry</a>
-                <a href="./html/maths12.html">Mathematics</a>
-            </div>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+                        Class 12
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./html/physics12.html">Physics</a>
+                        <a class="dropdown-item" href="./html/chemistry12.htm">Chemistry</a>
+                        <a class="dropdown-item" href="./html/maths12.html">Maths</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+                        NCERT Books
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Class-11</a>
+                        <a class="dropdown-item" href="#">Class-12</a>
+
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">BtecH</a>
+                </li>
+
+
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./html/contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./html/about.html">About</a>
+                </li>
+            </ul>
+
+
         </div>
+    </nav>
 
-        <div class="drp-down3">
-            <button class="dropbtn3">NCERT Books
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="drpdown-content3">
-                <a href="./html/class11_book.html">NCERT Books Class 11</a>
-                <a href="./html/class12_book.html">NCERT Books Class 12</a>
-            </div>
-        </div>
-
-        <a href="./html/btech.html">BtecH</a>
-        <a href="./html/contact.html">Contact</a>
-        <a href="./html/about.html">About Us</a>
-        <a href="./html/help.html">Help</a>
-        <div class="menu_bar-right">
-            <a href="./html/login.html">LogIN</a>
-            <a href="./html/signup.html">SignUP</a>
-          </div>
-
-         
-    </div>
-    <!--  division Ends Here-->
-
-
-
-    
-    <!--  featured content division starts here-->
-    
-    <div class="featured">
-        <div class="f1">
-            <div class="img">
-                <img src="./img/f2.jpg" alt="study pic">
-            </div>
-            <h1 style="text-align: justify;  font-size: 25px;"> 
-                Learn from here
-            </h1>
-            <h1 style="text-align: center;  font-size: 25px;">Your partner Akhiri Ummeed </h1>
-
-        </div>  
-            
-    
-
-    </div>
-
-    
 
 
 
 </body>
+
 </html>
