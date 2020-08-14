@@ -304,24 +304,22 @@
 @media (max-width: 480px) {
   .image-area {
     margin-top: 20px;
-    margin-right: 15px;
-    margin-bottom: 20px;
-    text-align: center;
-    padding-left: 90px;
-  }
-
-  .row {
+    margin-right: 19px;
+    margin-bottom: 30px;
     float: none;
-    margin-right: 10px;
-
-  }
-
+    padding-left: 300px;
+}
+.row {
+  float: left;
+  margin-right: 35px;
+  padding-left: 20px;
+}
   .img-wrapper {
-    width: 250px;
-    height: 340px;
+    width: 700px;
+    height: 400px;
     position: relative;
     overflow: hidden;
-  }
+}
 
   .img-wrapper:before {
     content: '';
