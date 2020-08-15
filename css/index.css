@@ -19,3 +19,25 @@ body {
   background-color: white;
 }
 
+.container {
+  
+  position: relative;
+  
+  
+  height:350px;
+}
+h1 {
+  text-align: ;
+    font-size: 30px;
+  padding: 102px 34px;
+}
+p {
+  font-size: 20px;
+ text-align: center;
+ top : 2px;
+
+}
+h2 {
+  font-size: 20px;
+ text-align: center;
+}
