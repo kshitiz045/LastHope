@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background-color: lightgray;
+  background-color: white;
 }
 .full-page {
     background-image: url(../img/new.jpg);
@@ -22,22 +22,28 @@ body {
 .container {
   
   position: relative;
+  border : 3px solid green;
   
-  
-  height:350px;
+  height:200px;
 }
 h1 {
-  text-align: ;
+  text-align : center;
     font-size: 30px;
-  padding: 102px 34px;
+  padding-top : 80px;
 }
 p {
   font-size: 20px;
  text-align: center;
- top : 2px;
+ 
 
 }
 h2 {
   font-size: 20px;
  text-align: center;
 }
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .container {
+    width:100%;
+  }
