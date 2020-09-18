@@ -1,2 +1,2 @@
 # Website
-Mini Project
+Mini-Project
