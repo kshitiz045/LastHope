@@ -51,12 +51,19 @@ body {
     height: 780px;
     font-size: 1rem;
     overflow-x: hidden;
-    color: #607289;
+    color: skyblue;
 }
 
 .footer-end {
-   height : 400px;
+  margin-top: 5px;
+   height : 575px;
 
+}
+
+.container-fluid {
+   font-size: 150px;
+   color: red;
+}
 }
 
 h5 {
@@ -68,7 +75,7 @@ h5 {
 }
 
 a {
-  color: #818494;
+  color: skyblue;
   font-weight: 500;
   text-decoration: none;
   background-color: transparent;
