@@ -22,7 +22,7 @@ body {
 .container {
   
   position: relative;
-  border : 3px skyblue;
+  border : 3px white;
   
   height:200px;
 }
@@ -51,7 +51,7 @@ body {
     height: 780px;
     font-size: 1rem;
     overflow-x: hidden;
-    color: skyblue;
+    color: black;
 }
 
 .footer-end {
