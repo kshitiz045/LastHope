@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: border-box;
+    
+  }
+  
+  body, html {
+    height: 80%;
+    margin: 0;
+  }
+  
+  .main-page {
+  padding: 5px;
+  text-align: center;
+  background-color: slateblue;
+  color: white;
+  border: 5px solid whitesmoke;
+  
+  }
+  
+  h1 {
+      text-align: center;
+      font-size: 30px;
+        color :black
+  }
+  
+  #note
+  {
+    text-align: left;
+    color:black;
+  }
+  #marquee1
+  {
+    
+    behavior: alternate;
+  }
+  .big-box {
+    width: auto;
+    border: 5px solid whitesmoke;
+    height:190%;
+    background-color: rgba(196, 196, 196,0.3);
+  }
+  
+  h5 {
+    text-align: left;
+    color: black;
+    font-size: 20px;
+  }
+  
+  p {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+  }
+  
+  h6 {
+    text-align: left;
+    color: black;
+    font-size: 12px;
+  }
+  table{
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: darkslategray;
+
+  }
+  th,td {
+    padding: 10px;
+  }
+  th {
+    text-align: left;
+  }
+  tr {
+      border: 1px solid grey;
+      font-size: 15px;
+      
+  }
+  #cap
+  {
+      border: none;
+      background-color: darkslategray;
+      color: white;
+      padding: 15px;
+      font-size: 20px;
+  }
+   td{
+      font-family: 'Times New Roman', Times, serif;
+      border: none;
+      font-size: 15px;
+      
+  }
+  tr td a
+  {
+      text-decoration: none;
+      color: grey;
+      font-size: 15px;
+  }
+    @media only screen and (max-width:620px) {
+        /* For mobile phones: */
+        .main-page .maths .big-box {
+          width:100%;
+        }
+
+    

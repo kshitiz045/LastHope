@@ -1,0 +1,96 @@
+body{
+    background-image: url("../img/book-11-back.jpg");
+}
+body, html {
+height: 100%;
+margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    }
+
+li {
+    float: right;
+    }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    }
+
+li a:hover {
+    background-color: #111111;
+}
+h3{
+    color: aliceblue;
+}
+.mycontainer{
+   background: #ffffff;
+   margin-top: 70px;
+}
+.thumbnails{
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition:border .2s ease-in-out ;
+    transition:border .2s ease-in-out ;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+.box{
+    margin: 25px;
+}
+.button {
+display: inline-block;
+border-radius: 4px;
+background-color: #f4511e;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 28px;
+padding: 20px;
+width: 200px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+margin-left: 50px;
+}
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
