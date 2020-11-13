@@ -335,7 +335,7 @@ i{
     width: 60px;
     height: 60px;
     padding: 20px;
-    background-color: #424242;
+    background-color: lightgray;
     border-radius: 50%;
     margin-right: 20px;
 
@@ -370,7 +370,7 @@ i{
         padding: 30px;
     }
     .sec4 p{
-        color:lightgray;
+        color: lightgray;
         position: relative;
     }
     .sec4 p::after{
@@ -391,7 +391,7 @@ i{
         opacity: 0.2;
     }   
     }
-    @media (max-width: 499px){
+    @media (max-width: 480px){
         .Main-Content{
     width: 100%;
     height: 100px;
@@ -416,7 +416,8 @@ footer{
 
 }
 .about{
-    width: 40%;
+    width: 100%;
+    text-align: center;
 
 }
 .sec1 h2{
@@ -442,13 +443,13 @@ a{
     color: black;
 }
 a:hover{
-    color: orange;
+    color: red;
 }
 span{
-    color: gray;
+    color:black;
 }
 i{
-    color: gray;
+    color: black;
     font-size: 20px;
 }
 .sec2{
@@ -471,7 +472,7 @@ i{
     border-radius: 20px;
     font-size: 22px;
 }
-.sec2 a:hover{.Main-Content{
+.sec2 a:hover{
     width: 100%;
     height: 100px;
     
@@ -515,6 +516,9 @@ i{
     .sec3 ul li:nth-child(4):hover{
     background-color: #0077b5;
     }
+    .sec3 ul li:nth-child(5):hover{
+        background-color: yellow;
+        }
     .sec4{
         display: flex;
         justify-content: center;
@@ -522,7 +526,7 @@ i{
         padding: 30px;
     }
     .sec4 p{
-        color: black;
+        color:lightgray;
         position: relative;
     }
     .sec4 p ::after{
@@ -542,7 +546,7 @@ i{
     hr{
         opacity: 0.2;
     }
-    }
+    
 
 
 @media only screen and (max-width:620px) {
