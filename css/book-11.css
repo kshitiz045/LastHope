@@ -52,7 +52,7 @@ img{
     width: 300px;
 }
 .box{
-    margin: 25px;
+    margin: 35px;
 }
 .button {
 display: inline-block;
@@ -94,3 +94,4 @@ padding-right: 25px;
 opacity: 1;
 right: 0;
 }
+
