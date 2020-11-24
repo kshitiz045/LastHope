@@ -6,7 +6,7 @@ body {
 
 .full-page {
     
-
+    background-image: url(../img/chem_back.jpg);
     padding-top: 70px;
     text-align: center;
     background-color: slateblue;
