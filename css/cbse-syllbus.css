@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    background-image: url("../img/cbse.jpeg");
+ }
+.front {
+
+    border: 3px solid yellow;
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    height: 580px;
+    margin-top: 35px;
+    background-color: white;
+}
+
+.inner-front {
+    border: 3px solid green;
+    width: auto;
+    padding: 10px;
+    margin: auto;
+    height: 80px;
+    background: green;
+    padding-top: 10px;
+}
+
+.inv {
+    border: 3px solid white;
+    width: 60%;
+    height: 200px;
+    padding-top: 20px;
+    background-color: white;
+}
+.in1 {
+    border: 3px solid white;
+    width: auto;
+    height: 50px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.end {
+    background-color: green;
+    width: auto;
+    height: 50px;
+    padding-bottom: 20px;
+}
