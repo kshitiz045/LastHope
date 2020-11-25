@@ -11,7 +11,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 	<link rel="stylesheet" type="text/css" href="style1.css">
 </head>
 <body>
-     <h1>Hello , my friend<?php echo $_SESSION['user_name']; ?></h1>
+     <h1>Hello , my friend &nbsp; <?php echo $_SESSION['user_name']; ?></h1>
      <a href="../index.html"><h4>Click here to proceed</h4></a>
     <a href="logout.php"><h4>Logout</h4></a>
 
@@ -19,8 +19,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <h1 id="message"></h1>
     <h2 id="name" contenteditable="true"></h2>
     <h3 id="day"></h3>
-    
-    
     
     <script>
         const time = document.getElementById("time");
@@ -77,12 +75,32 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
             }
         }
 
-        
+        function getName() {
+            if (localStorage.getItem('Name') === null) {
+                name.innerHTML = "Enter Your Name";
+            }
+            else {
+                name.innerHTML = localStorage.getItem("Name");
+            }
+        }
+
+        function setName(e) {
+            if (e.type === "keypress") {
+                if (e.keyCode == 13) {
+                    localStorage.setItem("Name", e.target.innerHTML);
+                    name.blur();
+                }
+            }
+            else {
+                localStorage.setItem("Name", e.target.innerHTML);
+            }
+        }
+
         showtime();
         setmessage();
-       
+        getName();
     </script>
-    
+
 </body>
 </html>
 
